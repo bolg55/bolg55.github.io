@@ -1,0 +1,164 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+  font-weight: 900;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+.big-heading {
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+.colored-section {
+  background-color: #343A40;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Top Nav */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+
+.nav-item {
+  padding: 0 18px;
+}
+
+/* Title Section */
+
+#title .container-fluid {
+  padding: 1% 15% 7%;
+  font-size: 1.2rem;
+  text-align: left;
+}
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Hero Image */
+.firevideo {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
+}
+
+.fire-frame {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+}
+
+#features {
+  position: relative;
+}
+
+/* Below the Fold Features */
+.feature-box {
+  padding: 1%;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-icons {
+  color: #EF4036;
+  margin-bottom: 1rem;
+}
+
+.feature-icons:hover {
+  color: #d81106;
+}
+
+/* Testimonial Section */
+#testimonials {
+  background-color: #f94e45;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #fff;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 20%;
+  margin: 20px -20px 50px;
+}
+
+/* Pricing Section */
+/* #pricing {
+  padding: 5% 20%;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  margin-top: 5%;
+} */
+
+#gallery {
+  padding: 5% 20%;
+}
+
+/* CTA Section */
+/* Footer Section */
+#footer {
+  padding: 2% 15%;
+}
+
+.footer-icon {
+  margin: 20px 10px;
+}
